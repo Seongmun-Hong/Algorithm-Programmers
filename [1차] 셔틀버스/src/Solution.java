@@ -41,7 +41,6 @@ public class Solution {
                 } else {
                     if (intTimeTable.get(0) <= suttleTime) {
                         Integer temp = intTimeTable.remove(0);
-                        break;
                     } else if(intTimeTable.isEmpty()) {
                         checker = true;
                         break;
